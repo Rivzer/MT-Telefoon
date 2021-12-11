@@ -1,0 +1,13 @@
+name: Telefoon
+version: 1.0
+main: be.rivzer.telefoon.Main
+softdepend:
+  - Vault
+
+commands:
+  telefoon:
+    description: Main command
+
+permissions:
+  tel.*:
+    description: All

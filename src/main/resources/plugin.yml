@@ -1,0 +1,13 @@
+name: Telefoon
+version: ${project.version}
+main: be.rivzer.telefoon.Main
+softdepend:
+  - Vault
+
+commands:
+  telefoon:
+    description: Main command
+
+permissions:
+  tel.*:
+    description: All
